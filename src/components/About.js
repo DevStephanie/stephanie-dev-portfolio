@@ -16,6 +16,7 @@ class About extends React.Component {
       activeKey: eventKey,
     });
   }
+
   render() {
     const one = (
       <p>
@@ -30,99 +31,20 @@ class About extends React.Component {
     );
     <br></br>
 
-    const two = (
-      <p> 
-      </p>
- 
-    )
-
-
-    const tech_stack = [
-      
-      "Python",
-      "SQL",
-      "Java",
-      "C#",
-    ];
-    const softwares =[
-      "Figma", "Android Studio", "VR", "Meta Horizon OS", "Unity", "Blender", "Photoshop", "Canva", "Rive", "Bezi",
-    ]
-
-    const product_skills = [
-      "UI/UX",
-      "Product strategy",
-      "Market Research", 
-      "User Experience", 
-      "Roadmapping",
-      "Product development",
-    ]
-
-    const socials = [
-      "MetaQ:serene.city",
-      "Spatial:serene.city",
-    ]
-
     return (
       <div id="about">
         <FadeInSection>
           <div className="section-header ">
             <span className="section-title">/ about me</span>
           </div>
-          <div className="about-content">
-            <div className="about-description">
-              {[one]}
-              <b>{"Favorite languages:"}</b>
-              <ul className="tech-stack">
-                {tech_stack.map(function (tech_item, i) {
-                  return (
-                    <FadeInSection delay={`${i + 1}00ms`}>
-                      <li>{tech_item}</li>
-                    </FadeInSection>
-                  );
-                })}
-              </ul>
-              <b>{"Favorite Softwares"}</b>
-              <ul className="tech-stack">
-                {softwares.map(function (tech_item, i) {
-                  return (
-                    <FadeInSection delay={`${i + 1}00ms`}>
-                      <li>{tech_item}</li>
-                    </FadeInSection>
-                  );
-                })}
-              </ul>
-              <b>{"Product Skills:"}</b>
-              <ul className="tech-stack">
-                {product_skills.map(function (tech_item, i) {
-                  return (
-                    <FadeInSection delay={`${i + 1}00ms`}>
-                      <li>{tech_item}</li>
-                    </FadeInSection>
-                  );
-                })}
-
-              <b> Follow my Socials:</b>
-              {[two]}
-              {socials.map(function (tech_item, i) {
-                  return (
-                    <FadeInSection delay={`${i + 1}00ms`}>
-                      <li>{tech_item}</li>
-                    </FadeInSection>
-                  );
-                })}
-              </ul>
-              <div className="about-description_2">
-
-            </div>
-            <div className="about-image">
-              <img alt="profile" src={"/profile-pic.png"} />
-            </div>
-          </div>
-        </div>
+          <div> {[one]}</div>
         </FadeInSection>
       </div>
     );
   }
+     
+    
+    
 }
 
 export default About;

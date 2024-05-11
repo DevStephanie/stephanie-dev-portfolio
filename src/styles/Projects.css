@@ -61,21 +61,21 @@
 }
 
 .card-title {
-  font-family: "NTR", sans-serif;
+  font-family: Didot, sans-serif;
   color: var(--lightest-slate) !important;
   font-size: 24px;
   font-weight: bold;
 }
 
 .card-desc {
-  font-family: "NTR", sans-serif;
+  font-family: Cormorant Garamond, sans-serif;
   color: var(--slate);
   font-size: 18px;
   padding-bottom: 40px;
 }
 
 .card-tech {
-  font-family: "NTR", sans-serif;
+  font-family: Didot, sans-serif;
   color: var(--slate);
   font-size: 16px;
 }
@@ -98,14 +98,14 @@
 }
 
 .carousel img {
-  object-fit:fill;
-  height: 0%;
-  opacity: 0.3;
+  object-fit: contain;
+  height: 100%;
+  opacity: 0.7;
 }
 
 .carousel-caption {
   font-family: "NTR", sans-serif;
-  max-width: 300px;
+  max-width: 500px;
   right: unset !important;
   top: 25%;
   left: 25% !important;

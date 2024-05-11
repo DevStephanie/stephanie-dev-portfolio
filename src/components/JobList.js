@@ -98,7 +98,7 @@ const JobList = () => {
       ]
     },
     "DigtlButtr Designs": {
-      jobTitle: "Freelancer / Content Creation",
+      jobTitle: "Freelancer / Content Creation @",
       duration: "May 2024",
       desc: [
         "Online digital magazine to showcase artists interests from online artists and myself etc ..",
