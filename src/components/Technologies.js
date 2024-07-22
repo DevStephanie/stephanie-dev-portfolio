@@ -44,10 +44,10 @@ class Technologies extends React.Component {
         // ]
     
         return (
-          <div id="about">
+          <div id="technologies">
             <FadeInSection>
               <div className="section-header ">
-                <span className="section-title">/ about me</span>
+                <span className="section-title">/ technologies</span>
               </div>
               <div className="about-content">
                 <div className="about-description">

@@ -1,9 +1,16 @@
 
 #about {
-  min-height: 50vh;
+  min-height: 30vh;
   margin: auto;
   max-width: 1000px;
   padding-top: 100px;
+  align-items:center;
+}
+#technologies {
+  min-height: 50vh;
+  margin: auto;
+  max-width: 1000px;
+  /* padding-top: 20px; */
   align-items:center;
 }
 

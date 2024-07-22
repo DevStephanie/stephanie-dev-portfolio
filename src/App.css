@@ -32,7 +32,7 @@ a {
 
 #content {
   /* padding: 80px 200px; */
-  width: 80vw;
+  width: 100vw;
   overflow-x: hidden;
   overflow-y: hidden;
 }
