@@ -29,7 +29,7 @@ class Projects extends React.Component {
         techStack: "Java, Swift UI, Objective -C",
         // link: "",
         // open: "",
-        image: "/under-construction.png"
+        image: "./under-construction.png"
       },
       Relevance: {
         title: "Relevance",
@@ -38,7 +38,7 @@ class Projects extends React.Component {
         techStack: "Java, Swift UI, Objective -C",
         // link: "",
         // open: "",
-        image: "/under-construction.png"
+        image: "./under-construction.png"
       },
 
     };
